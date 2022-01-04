@@ -1,0 +1,311 @@
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: "poppins-regular";
+}
+
+section{
+    margin: 0!important;;
+}
+h1{
+    text-align:  center;
+    justify-content: center;
+    font-size: 40px;
+    margin: auto;
+    padding-top: 50px;
+}
+h2{
+    
+    font-size: 30px  ;
+      color:black;
+      padding-top: 40px; 
+      margin-right: 65px;
+      text-align: center;
+      margin: auto;
+    }
+  
+    h3{
+      padding-top:129px;
+      text-align: center;
+      margin-left: 6px;
+  font-size: 20px;
+  text-decoration: none;
+      
+      transition:0.2s;
+      margin: auto;
+    }
+  
+   a h3:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+      color: white;
+   }
+
+
+h6{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 107px;
+  margin: auto;
+}
+
+
+.logo-pays-baltes{
+  height: 30px;
+}
+
+.logo{
+    margin-left: 4%;
+    
+}
+
+.logo img:logo-pays-baltes {
+  margin-right: 20px;
+}
+
+.logo:hover{
+  animation: logo-pays-baltes-animation 0.5s ease-in;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@keyframes logo-pays-baltes-animation {
+  20% {
+      transform: rotate(15deg);
+  }
+
+  40% {
+      transform: rotate(-10deg);
+  }
+
+
+  60% {
+      transform: rotate(5deg);
+  }
+
+  80% {
+      transform: rotate(-5deg);
+  }
+
+  to {
+      transform: rotate(0deg);
+  }
+}
+
+/** header nav-bar**/
+
+header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.element-droite{
+
+  height: 70px;
+  margin-bottom: 60px;
+}
+.liens-parent{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 17px;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 17px;
+
+}
+
+ul li a:hover{
+  color: seashell;
+  width: 100%;
+}
+
+
+/**block1*/
+#section-1{
+width: 100%;
+background-image: url(../image/lettonierigaplacedudame.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+text-align: center;
+padding-bottom: 40px;
+}
+
+.para-riga{
+    text-align:  center;
+    justify-content: center;
+    font-size: 26px;
+    font-family: "poppins-regular";
+    padding-top: 35px;
+    color: white;
+}
+
+
+/**block2*/
+#section-2{
+    width: 100%;
+    
+}
+
+.center-titre{
+    text-align: center;
+}
+
+.riga-parent{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centre-riga{
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+    flex-wrap:wrap; 
+
+}
+
+
+
+.centre-riga img{
+width: 100%;
+
+}
+figcaption{
+    text-align: center;
+    font-family: "poppins-regular";
+}
+
+.text-geo{
+  margin-left: 40px;
+  color: blue;
+  font-family: "poppins-regular";
+  font-size: 20px;
+}
+
+
+/**block3*/
+#section-3{
+width: 100%;
+}
+
+.center-titre-hist{
+margin-bottom: 60px;
+
+}
+
+.text-histoire{
+text-align: center;
+margin-left:40px;
+font-family: "poppins-regular" ;
+color:blue;
+font-size: 20px;
+
+}
+
+
+
+.mili-photo{
+ text-align: center;
+  
+}
+
+
+.mili-photo img{
+  border-radius: 25px;
+  margin-top: 65px;
+  width: 30%;
+}
+
+figcaption{
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+
+
+/**Footer*/
+
+footer{
+  width: 100%;
+  background-color:white;
+}
+
+.footer-logos{ 
+  width: 100%;
+}
+
+.centrer-bouton{
+    
+  text-align: center;
+ margin-top:50px;
+}
+  
+  .btn-retour{
+    text-decoration: none;
+    background-color: tomato;
+    color: wheat;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .btn-retour:hover{
+    background-color: brown;
+    color: #333;
+  
+  }
+
+.logo-facebook{
+  height: 124px;
+  text-align: center;
+  justify-content:space-between;
+  margin-top: 5px;
+}
+
+.logo-instagram{
+  height: 95px;
+  text-align: center;
+  width: 92px;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: 37px;
+
+}
+
+.logo-instagram img{
+  width: 100px;
+}
+
+
+.copyright{
+margin:0;
+font-size:14px;
+font-weight: 500;
+text-align: center;
+margin-top:50px ;
+
+}
+
+.texte-couleur-gris-bleu{
+  color:#5e6282;
+
+
+}

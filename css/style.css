@@ -1,0 +1,417 @@
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-image: url(../image/Tour-dEurope-de-lemploi-pays-baltes.jpg);
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-image:cover;
+    background-attachment: fixed;
+    background-color: white;
+    font-family: "poppins-regular";
+  }
+
+
+
+  section{
+      margin: 0!important;;
+  }
+
+
+  .logo-pays-baltes{
+    height: 30px;
+
+   
+  }
+
+  .logo{
+      margin-left: 4%;
+      
+  }
+
+  .logo img:logo-pays-baltes {
+    margin-right: 20px;
+}
+
+.logo:hover{
+    animation: logo-pays-baltes-animation 0.5s ease-in;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@keyframes logo-pays-baltes-animation {
+    20% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+  h2{
+  font-size: 50px  ;
+    color:black;
+    text-align: center;
+    padding-top: 70px;
+    
+
+    
+    
+  }
+
+  h3{
+    font-family:"poppins-regular";
+    text-align: center;
+    font-size: 20px;
+    transition:0.2s;
+    color: blue;
+  }
+
+  a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: white;
+    
+}
+
+a{
+text-decoration: none;
+color: blue ;
+
+
+}
+
+
+
+
+  h6{
+
+    font-size:20px;
+    text-align:center;
+    padding-top: 70px;
+  }
+
+ 
+
+
+
+
+  /** header nav-bar**/
+
+  header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.element-droite{
+
+    height: 70px;
+    margin-bottom: 60px;
+}
+.liens-parent{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+
+}
+
+ul li a:hover{
+    color: seashell;
+    width: 100%;
+}
+
+/**bloc1*/
+#section-1{
+    width:100%;
+}
+
+.titre-h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:"poppins-regular";
+
+}
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+aside{
+    width: 40%;
+    padding-left: 30px;
+    margin-left: 20px;
+    font-style: normal;
+    color: black;
+
+}
+
+aside p{
+margin:20px;
+flex-wrap: wrap;
+
+}
+
+p{
+
+    font-size: 20px;
+font-family:"poppins-regular";
+margin-top: 50px;
+
+
+}
+
+
+.carte-pays-baltes{
+height: 450px;
+margin-top: -10px;
+
+
+}
+
+.carte-pays-baltes img{
+    border-radius: 35px;
+
+}
+
+
+/**block2*/ 
+#section-2{
+    width:100%;
+
+}
+
+.center-titre{
+    text-align: center;
+    align-items: center;
+}
+
+
+.texte2{
+    text-align: center;
+  
+    
+
+
+}
+
+.figpays{
+  
+line-height: 2;   
+margin-top: 60px;
+text-align: center;
+
+
+}
+
+
+
+figcaption{
+word-spacing: 5px;
+font-family:"poppins-regular";
+color: blue;
+
+
+}
+.drapeau-conteneur{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.drapeau{
+max-width: 100%;
+height: 60px;
+border-radius: 20px;
+margin-left: 50px;
+}
+
+.drapeau:hover {
+    animation: drapeau-animation 0.5s ease-in;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.logo img:drapeau {
+    margin-right: 20px;
+}
+
+
+@keyframes drapeau-animation {
+    20% {
+        transform: rotate(15deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+.carte{
+ max-width: 100%;
+height: 150px;
+display: block;
+margin-bottom: 15px;
+border-radius: 20px;
+transition: 0.2s;
+flex-wrap: wrap;
+margin-top:30px;
+}
+
+.carte:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/**block3*/
+#section-3{
+    
+    width:100%;
+    height: 800px;
+}
+
+.text-video{
+    color: blue;
+
+}
+
+.video{
+    padding-left:30px;
+    text-align : center;
+
+
+}
+iframe{
+    padding-top: 100px;
+}
+
+/**Footer*/
+
+footer{
+    width: 100%;
+    
+}
+
+.footer-logos{ 
+    width: 100%;
+}
+
+.centrer-bouton
+{
+    
+    text-align: center;
+    margin-top: 50px;
+   
+    
+
+}
+.btn-retour{
+    text-decoration: none;
+    background-color: tomato;
+    color: wheat;
+    padding: 10px;
+   
+    text-align: center; 
+   
+}
+
+.btn-retour:hover{
+    background-color: brown;
+    color: #333;
+
+}
+
+.logo-facebook{
+    height: 124px;
+    text-align: center;
+    justify-content:space-between;
+    margin-top: 5px;
+}
+
+.logo-instagram{
+    height: 95px;
+    text-align: center;
+    width: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 37px;
+
+}
+
+.logo-instagram img{
+    width: 100px;
+}
+
+
+
+.copyright{
+margin:0;
+font-size:14px;
+font-weight: 500;
+text-align: center;
+margin-top:50px ;
+
+}
+
+.texte-couleur-gris-bleu{
+    color:#5e6282;
+
+
+}
+
+
+
